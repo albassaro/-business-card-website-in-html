@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+
+    <title>Контакты - Моя первая веб-страница</title>
+
+    <style>
+        
+        body {
+            margin: 0px;
+            padding: 0px;
+            margin-right: 0;
+        }
+
+        header {
+            background-image: url(/images/daniel-j-schwarz-cf1CHlRKxtU-unsplash.jpg);
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            height: 1000px;
+
+        }
+        
+        nav ul {
+            list-style-type: none;
+            background-color: rgba(8, 7, 5, 0.4);            
+            display: inline-block;  /*вертикальное меню */
+            border-radius: 0px 10px 10px 0px; /*скругление границ*/
+            padding-left: 0px;
+            text-align:left;
+            width: 180px;
+            position: fixed; /*фиксация на одном месте для перемещения со скроллом */
+
+               
+        }
+
+        nav a {
+            color: aliceblue;
+            text-decoration: none;
+            display: block; /*вертикальное меню */
+            background: rgba(8, 7, 5, 0); 
+            padding: 13px; 
+            border-radius:0px 10px 10px 0px;
+            padding-left: 26px;
+            line-height: 40px;
+            font-size: 21px;
+            text-align: justify;
+                
+        }
+
+        nav a:hover {
+            background: rgba(8, 7, 5, 0.5);
+        }
+        /*разметка основного текста */
+        main {
+            display: block;
+            text-align: justify;
+            margin-left: 450px;
+            margin-top: 80px;
+            font-size: 20px;
+        }
+        
+
+    </style>
+
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul id="navigation">
+                <li><a href="/index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="main-contacts">
+
+            <p>Контактная информация:</p>
+            
+            <br>
+
+                <span> Свяжитесь с нами!</span>
+                <br>
+                <br>
+                <img src="https://pastorskoelake.ru/templates/axlab2021/dist/assets/images/svg/contacts-icon2.svg">
+                <br> <br>
+                <span> Отель (ресепшн): </span> 
+                <p> +7 (157) 306 26 62 </p>
+               
+                <p> Офис (услуги, заказ номера и т.п): <br><br> +7 (159) 37 46 82 </p>
+
+
+             
+                <p> Горячая линия (поддержка): <br><br> +7 (155) 88 10 10 </p>
+                
+                <img src="https://pastorskoelake.ru/templates/axlab2021/dist/assets/images/svg/contacts-icon3.svg"> 
+                <br><br>
+                <span> Почта: </span>
+                <p> LakeVH@houseitaly.com</p>
+
+                <p>* Подписывайтесь на рассылку, чтобы получать посление новости и узнавать о проводимых акциях и скидках</p>
+
+            
+            
+
+            
+                <img src="https://pastorskoelake.ru/templates/axlab2021/dist/assets/images/svg/contacts-icon1.svg">
+                
+                <p>Van Picasto 38 - 976031 Брайес - Фальта Крисдения
+                Долонериты - Южный Треволь - Италия</p>
+            
+
+        </div>
+
+    </main>
+    
+    <footer>
+
+    </footer>
+
+</body>
+</html>
